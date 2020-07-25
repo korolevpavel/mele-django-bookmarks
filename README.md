@@ -1,0 +1,1 @@
+# mele-django-bookmarks
