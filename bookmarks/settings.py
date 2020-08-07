@@ -103,6 +103,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 # Login
 LOGIN_REDIRECT_URL = 'dashboard'
 LOGIN_URL = 'login'
