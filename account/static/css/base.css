@@ -187,9 +187,9 @@ ul.messages li a.close {
     display:block;
     color:#fff;
 }
-.social li.facebook { background:#3b5399; }
-.social li.twitter { background:#00cffa; }
-.social li.google { background:#de1710; }
+.social li.facebook { height: 20px; background:#3b5399; }
+.social li.twitter { height: 20px; background:#00cffa; }
+.social li.google { height: 20px; background:#de1710; }
 
 
 /* images */
