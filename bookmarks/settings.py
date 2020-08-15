@@ -92,12 +92,17 @@ AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
     'account.authentication.EmailAuthBackend',
     'social_core.backends.facebook.FacebookOAuth2',
+    'social_core.backends.twitter.TwitterOAuth'
 ]
 
 # Facebook authentication
 SOCIAL_AUTH_FACEBOOK_KEY = 'YOUR_KEY'
 SOCIAL_AUTH_FACEBOOK_SECRET = 'YOUR_SECRET'
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
+
+# Twitter authentication
+SOCIAL_AUTH_TWITTER_KEY = 'YOUR_KEY'
+SOCIAL_AUTH_TWITTER_SECRET = 'YOUR_SECRET'
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
